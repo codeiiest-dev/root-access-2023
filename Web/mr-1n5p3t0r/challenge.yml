@@ -1,0 +1,22 @@
+name : "mr_1n5p3t0r"
+author : "CapTaaha"
+category : Web
+
+description : |
+  Look for my source, the flag will be there.
+
+type: dynamic
+
+value: 100
+decay: 5
+minimum: 50
+
+flags:
+  - accessdenied{n0body_35c4pes_th3_1n5p3ct0r}
+
+tags:
+  - Web
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,28 @@
+name: "Key In Shark"
+author: "CapTaaha"
+category: Crypto
+
+description: |
+    I have sent you the public key of the RSA we used. Hopefully it was the public key...
+
+    NOTE: Wrap the flag in accessdenied{} before submitting.
+  
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/shark-rsa/Public/encrypted.txt
+  - Crypto/shark-rsa/Public/chall.pcapng
+
+flags:
+  - accessdenied{w0w_r5a_i5_pr3tty_c0mpl3x}
+
+tags:
+  - Crypto
+
+state: visible
+
+version: "0.1"

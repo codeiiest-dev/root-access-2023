@@ -1,0 +1,7 @@
+mkdir ~/mnt-top-level
+sudo mount -o loop /path/to/top-level.ext4 ~/mnt-top-level
+ls -l ~/mnt-top-level
+sudo umount ~/mnt-top-level
+
+cd top-level-o/
+find -name "flag.txt"

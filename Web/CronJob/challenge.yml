@@ -1,0 +1,22 @@
+name : "CronJob"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  This challenge will test your patience. Or you can avoid it if you are a good developer
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+flags:
+  - accessdenied{w3bh00k5_5@v3d_y0u?}
+
+tags:
+  - Web
+
+state: visible
+
+version: "0.1"

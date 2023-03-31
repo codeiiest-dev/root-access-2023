@@ -1,0 +1,26 @@
+name: "As you sow"
+author: "x_117"
+category: Crypto
+
+description: |
+  It seems like they are using some custom made encryption algorithm. I got the key from a traffic capture on 20th October last year, but there's something else...
+
+type: dynamic
+
+value: 500
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/As-you-sow/Public/encryptor.py
+  - Crypto/As-you-sow/Public/collected_data.txt
+
+flags:
+  - accessdenied{fl4w3d_by_pr3d1c7abl3_s33d5_ag4in}
+
+tags:
+  - Crypto
+
+state: visible
+
+version: "0.1"

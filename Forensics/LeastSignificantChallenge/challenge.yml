@@ -1,0 +1,25 @@
+name: "Least Significant Challenge"
+author: "Anirban Sikder"
+category: Forensics
+
+description: |
+  The music reminds me of konoha village...
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/LeastSignificantChallenge/Public/leastSignificantChallenge.wav
+
+flags:
+  - accessdenied{15b_!s_re@11y_us3fu1}
+
+tags:
+  - Forensics
+
+state: visible
+
+version: "0.1"

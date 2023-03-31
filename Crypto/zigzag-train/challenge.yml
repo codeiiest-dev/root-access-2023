@@ -1,0 +1,28 @@
+name: "Zigzag Train"
+author: "CapTaaha"
+category: Crypto
+
+description: |
+  Attention Hackers!
+  The train will arrive at Platform Number '4'. 
+  Please ensure you have the flag decrypted and placed as shown below. Have a safe journey!
+  Wrap the flag in accessdenied{} and submit it.
+
+type: dynamic
+
+value: 100
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/zigzag-train/Public/encrypted.txt
+
+flags:
+  - accessdenied{WH3R3D0357H3F3NC38361N4ND3ND}
+
+tags:
+  - Crypto
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,24 @@
+name: Giffy
+author: "x_117"
+category: Forensics
+
+description: |
+  I found the well, where I seemed to have dropped the flag that I bought yesterday. But looking down the well is making me dizzy...
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/Giffy/Public/well.gif
+
+flags:
+  - accessdenied{th3_tr4n5p4r3nt_ov3rl4p}
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name : "Forgery"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  The source is with you, Good Luck...
+
+type: dynamic
+
+value: 300
+decay: 5
+minimum: 50
+
+files:
+  - Web/Forgery/Public/source.zip
+
+flags:
+  - accessdenied{55rf_!s_d@ng3r0us_r!ght?}
+
+tags:
+  - Web
+
+state: visible
+
+version: "0.1"

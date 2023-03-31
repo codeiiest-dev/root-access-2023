@@ -1,0 +1,4 @@
+production-deploy:
+    stage: deploy
+    script: 
+      - python3 ctfd.py

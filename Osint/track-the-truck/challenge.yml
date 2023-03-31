@@ -1,0 +1,28 @@
+name: "Track The Truck"
+author: "CapTaaha"
+category: Osint
+
+description: |
+  You need to find where this container was last seen. Think you can do it?
+  Our target used this shipping container between 2004–2018. We need to track down most recent CSC number of this container as this will help us log it’s use and key people involved. Can you find the CSC (Convention for Safe Containers) number for this container?
+
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Osint/track-the-truck/Public/chall.txt
+  - Osint/track-the-truck/Public/container.jpg
+
+flags:
+  - FBV854404
+
+tags:
+  - Osint
+
+state: hidden
+
+version: "0.1"

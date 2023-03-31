@@ -1,0 +1,28 @@
+name: "Winner winner"
+author: "x_117"
+category: Crypto
+
+description: |
+  It's bigger than I expected
+
+  [That's what she said :D]
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/Winner-winner/Public/chall.py
+  - Crypto/Winner-winner/Public/output.txt
+
+flags:
+  - accessdenied{w3in3r_a7t4ck_n4il3d_i7}
+
+tags:
+  - Crypto
+
+state: hidden
+
+version: "0.1"

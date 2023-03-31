@@ -1,0 +1,22 @@
+name : "Yet Another Ping Service"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  I made a huge mistake and released sensitive VERSION information, it is under CONTROL now...
+
+type: dynamic
+
+value: 350
+decay: 5
+minimum: 50
+
+flags:
+  - accessdenied{g!t_!s_r3@11y_us3fu1}
+
+tags:
+  - Web
+
+state: hidden
+
+version: "0.1"

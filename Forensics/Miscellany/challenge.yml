@@ -1,0 +1,25 @@
+name: "Micellany"
+author: "Anirban Sikder"
+category: Forensics
+
+description: |
+  Best of luck, I know you can rock it.
+
+type: dynamic
+
+value: 250
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/Megatron/Public/youCanRock.zip
+
+flags:
+  - accessdenied{!nd3x!ng_!5_n3c3554ry}
+
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

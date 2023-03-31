@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title Socket.io Flag Update
+    script(src='/socket.io/socket.io.js')
+    script(src='/scripts/main.js')
+  body
+    h1 Flag Gets Updated Every 5 minutes
+    h2#flag Here is your flag : 
+    h3 You can also register your webhook and we will send you the entire flag at 00,15,30,45 minutes of any hour but only once.
+    form#webhook-form(method='POST' action='/webhook')
+      label(for='url') Webhook URL:
+      input#webhook-url(type='text' name='url')
+      input(type='submit' value='Add Webhook')

@@ -1,0 +1,30 @@
+name: "Hidden in Calls"
+author: "Arnab Sen"
+category: Rev
+
+description: |
+  In the land of Linux, where the code reigns,
+  There are syscalls aplenty, with many names.
+  From read to write, exec to fork,
+  These system calls are the foundation of the work.  
+  So whether you're a programmer, sysadmin, or hacker,
+  Tracing syscalls is the key to the cracker.
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Rev/hidden-in-calls/Public/main
+
+flags:
+  - accessdenied{7r4c1n6_15_d0p3}
+
+tags:
+  - Rev
+
+state: hidden
+
+version: "0.1"

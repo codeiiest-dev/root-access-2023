@@ -1,0 +1,24 @@
+name: corrupted
+author: "x_117"
+category: Forensics
+
+description: |
+  It says it's corrupted
+
+type: dynamic
+
+value: 100
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/corrupted/Public/flag1.png
+
+flags:
+  - accessdenied{pn9ch3ck_t0_th3_r3scu3}
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

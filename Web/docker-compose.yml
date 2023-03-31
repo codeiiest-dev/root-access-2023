@@ -1,0 +1,38 @@
+version : '3'
+services :
+  cronjob : 
+    build : Web/CronJob/Private
+    container_name : cronjob
+    ports :
+      - "4000:3000"
+  findtheflag : 
+    build : Web/FindTheFlag/Private
+    container_name : findtheflag
+    ports :
+      - "4001:3000"
+  forgery : 
+    build : Web/forgery/Private
+    container_name : forgery
+    ports :
+      - "4002:8080"
+  serialkiller : 
+    build : Web/SerialKiller/Private
+    container_name : serialkiller
+    ports :
+      - "4003:3000"
+  toomanyfiles:
+    build : Web/TooManyFiles/Private
+    container_name : toomanyfiles
+    ports :
+      - "4004:5000"
+  yetanotherpingservice:
+    build : Web/YetAnotherPingService/Private
+    container_name : yetanotherpingservice
+    ports :
+      - "4005:3000"
+  yetanotherforgery:
+    build : Web/YetAnotherForgery/Private
+    container_name : yetanotherforgery
+    ports :
+      - "4006:8080"
+  

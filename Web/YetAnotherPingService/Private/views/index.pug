@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Ping an IP
+  body
+    h1 Ping an IP
+    form(action="/ping" method="post")
+      label(for="ip") IP Address:
+      input#ip(type="text" name="ip")
+      br
+      input(type="submit" value="Ping")
+      pre= output

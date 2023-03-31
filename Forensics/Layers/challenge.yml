@@ -1,0 +1,25 @@
+name: Layers
+author: "x_117"
+category: Forensics
+description: 
+  How many roads must a man walk down before you call him a man?
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/Layers/Public/file
+
+flags:
+  - accessdenied{obl1g4t0ry_m4try0shk4_ch4ll3ng3}
+
+
+tags:
+  - Forensics
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Second Time Disaster"
+author: "Arnab Sen"
+category: Crypto
+
+description: |
+  This time we intercepted just one message. Can you decrypt it given the fact the enemies are very lazy.
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/second-time-disaster/Public/cipher.txt
+
+flags:
+  - accessdenied{wh0_54y5_51z3_d035n07_m4773r}
+
+tags:
+  - Crypto
+
+state: hidden
+
+version: "0.1"

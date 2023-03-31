@@ -1,0 +1,25 @@
+name: "N0th1ng T0 S33 H3r3"
+author: "CapTaaha"
+category: Misc
+
+description: |
+  ...
+
+type: dynamic
+
+value: 100
+decay: 5
+minimum: 50
+
+files:
+  - Misc/n0th1ng-t0-s33-h3r3/Public/chall.txt
+
+flags:
+  - accessdenied{c4n_y0u_s33_4nyth1ng_0gh3wn5x}
+
+tags:
+  - Misc
+
+state: visible
+
+version: "0.1"

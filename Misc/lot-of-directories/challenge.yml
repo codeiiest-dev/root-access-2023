@@ -1,0 +1,25 @@
+name: "Lot of Directories"
+author: "CapTaaha"
+category: Misc
+
+description: |
+  Woah! That is indeed a lot of directories...
+
+type: dynamic
+
+value: 300
+decay: 5
+minimum: 40
+
+files:
+  - Misc/lot-of-directories/Public/top-level.ext4
+
+flags:
+  - accessdenied{h0p3_f1nd1ng_m3_w45_n0t_h4rd}
+
+tags:
+  - Misc
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "BabyRSA"
+author: "x_117"
+category: Crypto
+
+description: |
+  I had a pretty bad day! Deleted one of the CTF flags, and had a fight with my friend. I remember sending him the flag, but I can't get my hands on it 'cause the messages were encrypted...
+
+type: dynamic
+
+value: 250
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/Symmetric-Problems/public/client1.py
+  - Crypto/Symmetric-Problems/public/capture.pcapng
+  - Crypto/Symmetric-Problems/public/server1.py
+
+flags:
+  - accessdenied{k3y_exch4ng3_ru1n5_symm3tr1c_k3y_encryp7i0n}
+
+tags:
+  - Crypto
+
+state: hidden
+
+version: "0.1"

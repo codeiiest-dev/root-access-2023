@@ -1,0 +1,28 @@
+name: "Where is this car?"
+author: "CapTaaha"
+category: Osint
+
+description: |
+  A suspected criminal was spotted getting in this car. Help us know where he might be hidding right now...
+
+  Submit the name of the country.
+
+type: dynamic
+
+value: 400
+decay: 5
+minimum: 50
+
+files:
+  - Osint/where-is-this-car/Public/license.jpg
+  - Osint/where-is-this-car/Public/chall.txt
+
+flags:
+  - Morocco
+
+tags:
+  - Osint
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,26 @@
+name: Diagonally
+author: "x_117"
+category: Misc
+
+description: |
+  A friend of mine said he's sending me a code, which is supposed to be read only by me. All I got was a pitch black image -_-. Must be another prank of his!
+
+type: dynamic
+
+value: 250
+decay: 5
+minimum: 50
+
+files:
+  - Misc/Diagonally/Public/collectedData.png
+  - Misc/Diagonally/Public/question.py
+
+flags:
+  - accessdenied{s0m3t1m3s_y0u_h4v3_t0_th1nk_d1ag0n4l1y}
+
+tags:
+  - Misc
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,63 @@
+wave1:
+  Crypto:
+    - Baby-RSA
+    - one-time-disaster
+    - zigzag-train
+    - Advanced
+    - As-you-sow
+
+  Forensics:
+    - Giffy
+    - Layers
+    - LeastSignificantChallenge
+    - Picaso
+
+  Misc:
+    - Diagonally
+    - btc-miner
+    - lot-of-directories
+    - n0th1ng-t0-s33-h3r3
+
+  Web:
+    - CronJob
+
+  Osint:
+    - where-is-this-car
+
+  Rev:
+    - open-the-safe
+    - search-the-bin
+
+  Web:
+    - CronJob
+    - FindTheFlag
+    - Forgery
+    - SerialKiller
+    - TooManyFiles
+    - mr-1n5p3t0r
+
+wave2:
+  Crypto:
+    - second-time-disaster
+    - shark-rsa
+    - Symmetric-Problems
+    - Winner-winner
+
+  Forensics:
+    - corrupted
+    - Megatron
+    - Miscellany
+    - Same-Story
+
+  Misc:
+    - hidden-in-noise
+
+  Osint:
+    - track-the-truck
+
+  Rev:
+    - hidden-in-calls
+
+  Web:
+    - YetAnotherForgery
+    - YetAnotherPingService

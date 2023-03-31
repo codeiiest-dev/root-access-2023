@@ -1,0 +1,25 @@
+name: "Bitcoin Miner"
+author: "Arnab Sen"
+category: Misc
+
+description: |
+  You are given the raw block data of the Genesis block which marked the birth of Bitcoin. You are expected to learn how bitcoin mining works and then mine the block yourself. To make it easier for you, the difficulty target of the block is set to 7. Append an integer nonce value at the end of the block data and use SHA256 for hashing. The flag is the smallest nonce value that gives a hash meeting the difficulty target. The flag is of the form accessdenied{nonce_value}.
+
+type: dynamic
+
+value: 350
+decay: 5
+minimum: 50
+
+files:
+  - Misc/btc-miner/block
+
+flags:
+  - accessdenied{34561593}
+
+tags:
+  - Misc
+
+state: visible
+
+version: "0.1"

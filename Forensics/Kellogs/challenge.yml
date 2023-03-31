@@ -1,0 +1,24 @@
+name: "Kellogs"
+author: "x_117"
+category: Forensics
+
+description: 
+  No challenge is hard if you know how to cheat.
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/Kellogs/Public/capture.pcapng
+
+flags:
+  - accessdenied{p4ck3t_c4ptur3_f0r_usb}
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

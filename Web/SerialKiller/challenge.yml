@@ -1,0 +1,25 @@
+name : "Serial Killer"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  I wrote a simple code, hope there is no bug in it...
+
+type: dynamic
+
+value: 500
+decay: 5
+minimum: 50
+
+files:
+  - Web/Forgery/Public/index.js
+
+flags:
+  - accessdenied{th3r3_!s_@_s3r!0u5_!55u3_!n_d35!r!@l!z3}
+
+tags:
+  - Web
+
+state: visible
+
+version: "0.1"

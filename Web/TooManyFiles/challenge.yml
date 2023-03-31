@@ -1,0 +1,22 @@
+name : "Too Many Files"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  What should I do with so many files ?
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+flags:
+  - accessdenied{D!d_y0u_s01v3_!t_m@nu@11y?}
+
+tags:
+  - Web
+
+state: visible
+
+version: "0.1"

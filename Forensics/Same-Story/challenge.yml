@@ -1,0 +1,25 @@
+name: "Same Story"
+author: "x_117"
+category: Forensics
+description: 
+  Come on man! They're all the same!
+
+type: dynamic
+
+value: 100
+decay: 10
+minimum: 100
+
+files:
+  - Forensics/Same-Story/Public/same_story.zip
+
+flags:
+  - accessdenied{p3rh4p5_4_l1ttl3_d1fferent}
+
+
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,22 @@
+name : "Break the rules"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  Free pinging service for you, enjoy...
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+flags:
+  - accessdenied{0h_n0_!_@1w@y5_f0rg3t_t0_d3a1_w!th_5p@c3s}
+
+tags:
+  - Web
+
+state: visible
+
+version: "0.1"

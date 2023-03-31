@@ -1,0 +1,25 @@
+name : "Yet Another Forgery"
+author : "Anirban Sikder"
+category : Web
+
+description : |
+  As I said before, source is always with you...
+
+type: dynamic
+
+value: 400
+decay: 5
+minimum: 50
+
+files:
+  - Web/Forgery/Public/source.zip
+
+flags:
+  - accessdenied{L00k5_L!k3_y0u_m@st3r3d_55rf}
+
+tags:
+  - Web
+
+state: hidden
+
+version: "0.1"

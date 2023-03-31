@@ -1,0 +1,25 @@
+name: "Megatron"
+author: "Anirban Sikder"
+category: Forensics
+
+description: |
+  I think Peter knows some secret.
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/Megatron/Public/megatron.png
+
+flags:
+  - accessdenied{p3t3r_gr!ff!n_5@v35_th3_d@y}
+
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

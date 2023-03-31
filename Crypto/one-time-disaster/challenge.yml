@@ -1,0 +1,27 @@
+name: "One Time Disaster"
+author: "Arnab Sen"
+category: Crypto
+
+description: |
+  Our spy in the enemy's base reported that the enemies are trasmitting very secret yet obvious plaintext messages. We know that they are too lazy to generate new keys.
+  Can you uncover the secret message but taking advantage of their laziness?
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/one-time-disaster/Public/cipher1.txt
+  - Crypto/one-time-disaster/Public/cipher2.txt
+
+flags:
+  - accessdenied{n3v3r_r3p347_k3y5}
+
+tags:
+  - Crypto
+
+state: hidden
+
+version: "0.1"

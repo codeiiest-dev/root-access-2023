@@ -1,0 +1,28 @@
+name: "0P3N TH3 S4F3"
+author: "CapTaaha"
+category: Rev
+
+description: |
+  Dang it! Forgot the password again! 
+  Can you help me get into the safe?
+
+  Wrap the flag in accessdenied{}
+
+type: dynamic
+
+value: 100
+decay: 5
+minimum: 50
+
+files:
+  - Rev/open-the-safe/Public/safe.java
+
+flags:
+  - accessdenied{pl3as3_l3t_m3_1nt0_th3_saf3}
+
+tags:
+  - Rev
+
+state: visible
+
+version: "0.1"

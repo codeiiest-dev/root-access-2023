@@ -1,0 +1,25 @@
+name: "Picaso"
+author: "Anirban Sikder"
+category: Forensics
+
+description: |
+  Please rate my art out of 10.
+
+type: dynamic
+
+value: 200
+decay: 5
+minimum: 50
+
+files:
+  - Forensics/Megatron/Public/myArt.png
+
+flags:
+  - accessdenied{m@n!pu1@t3d_b!t5_3v3rywh3re3}
+
+tags:
+  - Forensics
+
+state: hidden
+
+version: "0.1"

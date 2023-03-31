@@ -1,0 +1,26 @@
+name: "BabyRSA"
+author: "x_117"
+category: Crypto
+
+description: |
+  You know the drill!
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/BabyRSA/Public/chall.py
+  - Crypto/BabyRSA/Public/output.txt
+
+flags:
+  - accessdenied{s1mul7an3ous_equ4t1on5_i7_i5}
+
+tags:
+  - Crypto
+
+state: visible
+
+version: "0.1"

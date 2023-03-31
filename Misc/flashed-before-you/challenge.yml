@@ -1,0 +1,25 @@
+name: "Flashed Before You"
+author: "Arnab Sen"
+category: Misc
+
+description: |
+  That was really fast. But I can assure that the secret is simple. 
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+files:
+  - Misc/flashed-before-you/Public/flag.gif
+
+flags:
+  - accessdenied{youarefast}
+
+tags:
+  - Misc
+
+state: hidden
+
+version: "0.1"

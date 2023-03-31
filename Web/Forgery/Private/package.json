@@ -1,0 +1,11 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Nice app",
+  "main": "index.js",
+  "keywords": ["app"],
+  "author": "@n!rb@n",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

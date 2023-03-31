@@ -1,0 +1,25 @@
+name: "Advanced"
+author: "x_117"
+category: Crypto
+
+description:
+  Wrap the flag in accessdenied{} before submitting.
+
+type: dynamic
+
+value: 500
+decay: 5
+minimum: 50
+
+files:
+  - Crypto/Advanced/Public/chall.py
+
+flags:
+  - accessdenied{AES_CBC_ov3r_ECB}
+
+tags:
+  - Crypto
+
+state: hidden
+
+version: "0.1"

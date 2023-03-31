@@ -1,0 +1,26 @@
+name: "Hidden In Noise"
+author: "Arnab Sen"
+category: Misc
+
+description: |
+  Your team of hackers has just intercepted a transmission from a rival group, containing a suspicious image file. Upon investigation, you discover that the image has been encoded with a complex bit manipulation algorithm, and you must use your mastery of bits to decode it. Can you break the code and uncover the hidden message before it's too late?
+
+type: dynamic
+
+value: 150
+decay: 5
+minimum: 50
+
+files:
+  - Misc/hidden-in-noise/Public/image1.png
+  - Misc/hidden-in-noise/Public/image2.png
+
+flags:
+  - accessdenied{50_y0u_4r3_600d_w17h_1m4635}
+
+tags:
+  - Misc
+
+state: hidden
+
+version: "0.1"
